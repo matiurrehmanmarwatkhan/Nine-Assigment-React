@@ -1,9 +1,9 @@
 import React from "react";
-import ProfileHeader from "./components/ProfileHeader";
-import RepositoryList from "./components/RepositoryList";
 import { repositories } from "./constant/repositories";
 import { profileData } from "./constant/profileData";
 import ProfileSidebar from "./components/ProfileSideBar";
+import RepositoryList from "./components/RepostoryList";
+import ProfileHeader from "./components/ProfileHeader";
 
 function App() {
   return (
